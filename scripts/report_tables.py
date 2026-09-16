@@ -26,6 +26,11 @@ def main():
     for method,rs in methods.items():
         vals=[method]+[f"{r['support']} {r['complete']}" for r in rs]+[sum(r['complete'] for r in rs),sum(r['regret'] for r in rs)]
         lines.append('| '+' | '.join(map(str,vals))+' |')
+    lines+=['','| Method | New /96 | Earlier /96 | Negative /192 | Unchanged losses | Repaired errors |',
+            '|---|---:|---:|---:|---:|---:|']
+    for method,rs in methods.items():
+        vals=[method]+[sum(r['groups'][g]['complete'] for r in rs) for g in ['new','earlier','negative']]+[sum(r[k] for r in rs) for k in ['losses','repairs']]
+        lines.append('| '+' | '.join(map(str,vals))+' |')
     lines+=['','The gap is nonnegative regret for support selectors. No revision is outside the two-support action set: a negative gap means it exceeds both trained candidates on aggregate while still missing new obligations.','',
             '## Native investigation costs','', '| Run | Updates | Input / loss tokens | Generations | Prompt / completion tokens | Active seconds | Wait seconds | Peak MLX bytes |',
             '|---|---:|---:|---:|---:|---:|---:|---:|']

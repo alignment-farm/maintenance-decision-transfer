@@ -43,8 +43,10 @@ def main():
     methods={}
     for run in assessment:
         for r in run['decisions']:
-            z=methods.setdefault(r['method'],dict(complete=0,n=0,gap_to_two_support_oracle=0))
+            z=methods.setdefault(r['method'],dict(complete=0,n=0,gap_to_two_support_oracle=0,new=0,earlier=0,negative=0,losses=0,repairs=0))
             z['complete']+=r['complete'];z['n']+=192;z['gap_to_two_support_oracle']+=r['regret']
+            for group in ['new','earlier','negative']:z[group]+=r['groups'][group]['complete']
+            for metric in ['losses','repairs']:z[metric]+=r[metric]
     oracle=sum(max(e['complete'] for e in run['endpoints'] if e['history']==h and e['support']!='none') for run in assessment for h in ['novel','bridged'])
     audit_totals={k:sum(r[k] for r in audit_reports) for k in ['probes','prompt_tokens','completion_tokens','generation_seconds','wall_seconds','wait_seconds']}
     explicit=json.loads(Path('evidence/explicit-audit.json').read_text());assert explicit['status']=='complete'

@@ -88,7 +88,9 @@ def summarize(run):
                 start_v1_complete=sum(t.check(r['raw'],r['case'],1)['complete'] for r in pre.values())))
         decisions=json.loads((run/(h+'-decisions.json')).read_text())
         for method,s in decisions.items():
-            result['decisions'].append(dict(history=h,method=method,support=s,complete=totals[s],regret=max(totals[s] for s in ARMS)-totals[s]))
+            endpoint=next(e for e in result['endpoints'] if e['history']==h and e['support']==s)
+            result['decisions'].append(dict(history=h,method=method,support=s,complete=totals[s],regret=max(totals[s] for s in ARMS)-totals[s],
+                groups=endpoint['groups'],losses=endpoint['losses'],repairs=endpoint['repairs']))
     result['costs']=costs(events,rows,run)
     return result
 def costs(events,rows,run):
