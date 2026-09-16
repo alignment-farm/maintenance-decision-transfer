@@ -1,0 +1,18 @@
+{
+  "copper|slow|0|0": "FAIL SKIP SKIP 0 HELD",
+  "copper|slow|0|1": "FAIL SKIP SKIP 1 HELD",
+  "copper|slow|1|0": "PASS SKIP SKIP 0 WAIT",
+  "copper|slow|1|1": "PASS RESERVE SHIP 0 SENT",
+  "copper|fast|0|0": "PASS SKIP SKIP 0 WAIT",
+  "copper|fast|0|1": "PASS RESERVE SHIP 0 SENT",
+  "copper|fast|1|0": "PASS SKIP SKIP 0 WAIT",
+  "copper|fast|1|1": "PASS RESERVE SHIP 0 SENT",
+  "violet|slow|0|0": "PASS SKIP SKIP 0 WAIT",
+  "violet|slow|0|1": "PASS RESERVE SHIP 0 SENT",
+  "violet|slow|1|0": "PASS SKIP SKIP 0 WAIT",
+  "violet|slow|1|1": "PASS RESERVE SHIP 0 SENT",
+  "violet|fast|0|0": "FAIL SKIP SKIP 0 HELD",
+  "violet|fast|0|1": "FAIL SKIP SKIP 1 HELD",
+  "violet|fast|1|0": "PASS SKIP SKIP 0 WAIT",
+  "violet|fast|1|1": "PASS RESERVE SHIP 0 SENT"
+}

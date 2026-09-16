@@ -1,0 +1,2114 @@
+[
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "FAIL SKIP SKIP 0 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "FAIL SKIP SKIP 1 HELD"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 0,
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 1,
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "label": "PASS SKIP SKIP 0 WAIT"
+  },
+  {
+    "version": 2,
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "label": "PASS RESERVE SHIP 0 SENT"
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "complete": 192,
+  "n": 192,
+  "operations": [
+    {
+      "version": 0,
+      "scanned": 64,
+      "unique_keys": 16,
+      "overwrites": 0
+    },
+    {
+      "version": 1,
+      "scanned": 64,
+      "unique_keys": 2,
+      "overwrites": 2
+    },
+    {
+      "version": 2,
+      "scanned": 64,
+      "unique_keys": 2,
+      "overwrites": 2
+    }
+  ],
+  "construction_seconds": 0.00046087498776614666,
+  "use_seconds": 0.000684084021486342,
+  "key_reads": 192,
+  "table_bytes": 757,
+  "assumptions": [
+    "entity-invariant policy",
+    "exact supplied channel/priority/certified/stock addressing",
+    "authoritative checked labels",
+    "investigator correction scope"
+  ]
+}

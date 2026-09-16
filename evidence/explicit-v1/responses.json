@@ -1,0 +1,4034 @@
+[
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "daxen",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "miptor",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "velsun",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "robnak",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "fenzal",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "kudrem",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "sovpik",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "tarnex",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "vornel",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "hespak",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "queldin",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "copper",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "copper",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "violet",
+      "priority": "slow",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 0
+    },
+    "raw": "FAIL SKIP SKIP 0 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 0,
+      "stock": 1
+    },
+    "raw": "FAIL SKIP SKIP 1 HELD",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 0
+    },
+    "raw": "PASS SKIP SKIP 0 WAIT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  },
+  {
+    "case": {
+      "entity": "zartum",
+      "channel": "violet",
+      "priority": "fast",
+      "certified": 1,
+      "stock": 1
+    },
+    "raw": "PASS RESERVE SHIP 0 SENT",
+    "scores": {
+      "eligibility": true,
+      "reservation": true,
+      "shipment": true,
+      "stock": true,
+      "status": true,
+      "format": true,
+      "exact": true,
+      "complete": true,
+      "stale": false
+    }
+  }
+]
