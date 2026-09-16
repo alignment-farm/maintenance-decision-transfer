@@ -64,7 +64,7 @@ def fit(run,out):
 def summarize(run):
     events,rows=checked(run);g=groups(rows);design=json.loads((run/'design.json').read_text())
     verify_decisions(run,g,design)
-    result=dict(design=design,endpoints=[],decisions=[])
+    result=dict(source_run=str(run),design=design,endpoints=[],decisions=[])
     for h in ARMS:
         pre={key(r['case']):r for r in g[h+'-start','final']}
         assert len(pre)==192
