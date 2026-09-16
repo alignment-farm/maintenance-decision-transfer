@@ -23,6 +23,25 @@ def groups(rows):
     g=defaultdict(list)
     for r in rows:g[r['state'],r['panel']].append(r)
     return g
+def verify_decisions(run,g,design):
+    """Recompute choices using only their permitted observations, never final rows."""
+    def pick(values,h):
+        return h if abs(values['novel']-values['bridged'])<1e-10 else max(values,key=values.get)
+    for h in ARMS:
+        expected=dict(constant_novel='novel',constant_bridged='bridged',match_history=h,no_revision='none')
+        expected['sparse_validation']=pick({s:sum(g[h+'--'+s,'validation'][i]['scores']['complete'] for i in [0,2,4,6,9,11,13,15]) for s in ARMS},h)
+        expected['full_validation']=pick({s:sum(r['scores']['complete'] for r in g[h+'--'+s,'validation']) for s in ARMS},h)
+        if design['phase']=='assessment':
+            predictor=json.loads((run/'predictors.json').read_text())
+            expected['developed_constant']=predictor['constant']
+            nearest=min(predictor['states'],key=lambda r:(abs(design['acquisition_updates']-r['duration']),r['history']!=h))
+            expected['history_predictor']=pick(nearest['endpoints'],h)
+            observed=[int(r['scores']['complete']) for r in g[h+'-start','pre']]
+            nearest=min(predictor['states'],key=lambda r:(sum(x!=y for x,y in zip(observed,r['pre'])),r['history']!=h))
+            expected['pre_observation']=pick(nearest['endpoints'],h)
+            predicted={s:predictor['prefix'][s]['intercept']+predictor['prefix'][s]['slope']*sum(r['scores']['complete'] for r in g[h+'--'+s,'prefix'])/16 for s in ARMS}
+            expected['prefix_predictor']=pick(predicted,h)
+        assert expected==json.loads((run/(h+'-decisions.json')).read_text())
 def fit(run,out):
     tick=time.monotonic();events,rows=checked(run);g=groups(rows)
     design=json.loads((run/'design.json').read_text()); assert design['phase']=='development'
@@ -44,6 +63,7 @@ def fit(run,out):
         calibration_acquisitions=1,calibration_endpoint_calls=768,calibration_prefix_calls=64))
 def summarize(run):
     events,rows=checked(run);g=groups(rows);design=json.loads((run/'design.json').read_text())
+    verify_decisions(run,g,design)
     result=dict(design=design,endpoints=[],decisions=[])
     for h in ARMS:
         pre={key(r['case']):r for r in g[h+'-start','final']}
