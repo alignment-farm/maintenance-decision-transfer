@@ -1,0 +1,31 @@
+{
+  "phase": "final",
+  "seeds": [
+    701,
+    702
+  ],
+  "blocks": 64,
+  "fresh": [
+    "zelvon",
+    "barmek",
+    "nustal",
+    "pelrik"
+  ],
+  "acquired": [
+    "daxen",
+    "miptor",
+    "velsun",
+    "robnak"
+  ],
+  "targets": [
+    "fenzal",
+    "kudrem",
+    "sovpik",
+    "tarnex"
+  ],
+  "boundary_mode": "negative",
+  "repeat_entities": [
+    "daxen",
+    "zelvon"
+  ]
+}
