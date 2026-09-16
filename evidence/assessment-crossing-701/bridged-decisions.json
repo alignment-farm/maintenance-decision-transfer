@@ -1,0 +1,12 @@
+{
+  "constant_novel": "novel",
+  "constant_bridged": "bridged",
+  "match_history": "bridged",
+  "no_revision": "none",
+  "developed_constant": "bridged",
+  "history_predictor": "bridged",
+  "pre_observation": "bridged",
+  "prefix_predictor": "bridged",
+  "sparse_validation": "bridged",
+  "full_validation": "bridged"
+}

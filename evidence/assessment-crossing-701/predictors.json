@@ -1,0 +1,89 @@
+{
+  "source_run": "evidence/dev-crossing-601",
+  "source_sha256": "947c985700148e8695b17981801877cb33aa6b285c8cb843a46643f66a82e2be",
+  "constant": "bridged",
+  "states": [
+    {
+      "history": "novel",
+      "duration": 512,
+      "pre": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "endpoints": {
+        "novel": 0.75,
+        "bridged": 0.78125
+      }
+    },
+    {
+      "history": "bridged",
+      "duration": 512,
+      "pre": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "endpoints": {
+        "novel": 0.625,
+        "bridged": 0.7447916666666666
+      }
+    }
+  ],
+  "prefix": {
+    "novel": {
+      "intercept": 0.693901303538175,
+      "slope": -0.0186219739292365,
+      "x": [
+        0.1875,
+        0.5
+      ],
+      "y": [
+        0.75,
+        0.625
+      ]
+    },
+    "bridged": {
+      "intercept": 0.7613636363636362,
+      "slope": 0.004419191919191923,
+      "x": [
+        0.5,
+        0.25
+      ],
+      "y": [
+        0.78125,
+        0.7447916666666666
+      ]
+    }
+  },
+  "fit_seconds": 0.04469908299506642,
+  "calibration_acquisitions": 1,
+  "calibration_endpoint_calls": 768,
+  "calibration_prefix_calls": 64
+}

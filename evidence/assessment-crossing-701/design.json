@@ -1,0 +1,34 @@
+{
+  "seed": 701,
+  "start_run": "evidence/assessment-acquisitions",
+  "acquisition_updates": 256,
+  "final": [
+    "daxen",
+    "miptor",
+    "velsun",
+    "robnak",
+    "fenzal",
+    "kudrem",
+    "sovpik",
+    "tarnex",
+    "vornel",
+    "hespak",
+    "queldin",
+    "zartum"
+  ],
+  "validation": [
+    "torvek",
+    "jaspel"
+  ],
+  "sparse": [
+    0,
+    2,
+    4,
+    6,
+    9,
+    11,
+    13,
+    15
+  ],
+  "phase": "assessment"
+}
