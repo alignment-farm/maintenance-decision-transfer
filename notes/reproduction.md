@@ -28,6 +28,7 @@ uv run --no-sync python scripts/state_support_acquire.py --seeds 701 702 --outpu
 uv run --no-sync python scripts/decision_experiment.py --start-run evidence/NEW-assessment-acquisitions --seed 701 --predictors evidence/NEW-predictors.json --output evidence/NEW-crossing-701
 uv run --no-sync python scripts/decision_experiment.py --start-run evidence/NEW-assessment-acquisitions --seed 702 --predictors evidence/NEW-predictors.json --output evidence/NEW-crossing-702
 uv run --no-sync python scripts/explicit_evidence.py --output evidence/NEW-explicit
+uv run --no-sync python scripts/audit_explicit.py --run evidence/NEW-explicit --output evidence/NEW-explicit-audit.json
 uv run --no-sync python scripts/analyze.py --runs evidence/NEW-dev-crossing evidence/NEW-crossing-701 evidence/NEW-crossing-702 --acquisitions evidence/NEW-dev-acquisition evidence/NEW-assessment-acquisitions --output evidence/NEW-analysis.json
 uv run --no-sync python scripts/audit.py --runs evidence/NEW-dev-acquisition evidence/NEW-dev-crossing evidence/NEW-assessment-acquisitions evidence/NEW-crossing-701 evidence/NEW-crossing-702 --output evidence/NEW-audit
 ```
@@ -47,3 +48,12 @@ comparison protocol. Its `phase=final` denotes the inherited execution mode,
 not this study's development/assessment classification: seed 601 is development;
 701 and 702 are assessment. Actual comparison design.json records that distinction.
 Historical ancestor metadata in runtime.py does not supersede sources/README.md.
+
+The original completed phase is reconciled by `scripts/verify_phase.py --analysis
+evidence/final-analysis.json --audits evidence/development-audit
+evidence/assessment-audit --output evidence/NEW-phase-audit.json`. This publication
+audit deliberately pins the original predictor file and its `735f941` freeze;
+an independent new reproduction must use its own committed freeze rather than
+claim the original timing-containing predictor JSON is byte-identical.
+`scripts/report_tables.py evidence/final-analysis.json --output evidence/NEW-tables.md`
+regenerates the published tables without model work.

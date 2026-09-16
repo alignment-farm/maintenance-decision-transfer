@@ -1,0 +1,203 @@
+{
+  "status": "complete",
+  "source_analysis_sha256": "33adc3dbf33542b22edd5efb1afc4c1f3007e14f96fe651c2420017f1fb57ad0",
+  "revision": "340688f2734b7db91baeed128464c1946b9e7e33",
+  "totals": {
+    "updates": 4672,
+    "training_input_tokens": 417466,
+    "loss_tokens": 37376,
+    "training_seconds": 860.271809382888,
+    "generations": 5856,
+    "prompt_tokens": 482240,
+    "completion_tokens": 46836,
+    "generation_seconds": 1623.8344746599323,
+    "wall_seconds": 2658.7829961250245,
+    "wait_seconds": 0.0,
+    "checkpoint_bytes": 152247226,
+    "active_seconds": 2658.7829961250245,
+    "peak_mlx_bytes": 9614900252
+  },
+  "audit_totals": {
+    "probes": 546,
+    "prompt_tokens": 44965,
+    "completion_tokens": 4407,
+    "generation_seconds": 152.1000167488819,
+    "wall_seconds": 183.2844303759921,
+    "wait_seconds": 0.0
+  },
+  "audit_runs": {
+    "evidence/dev-acquisition-601": {
+      "run": "evidence/dev-acquisition-601",
+      "responses": 640,
+      "updates": 896,
+      "checkpoints": 4
+    },
+    "evidence/dev-crossing-601": {
+      "run": "evidence/dev-crossing-601",
+      "responses": 1376,
+      "updates": 960,
+      "checkpoints": 8
+    },
+    "evidence/assessment-acquisitions": {
+      "run": "evidence/assessment-acquisitions",
+      "responses": 1088,
+      "updates": 1280,
+      "checkpoints": 6
+    },
+    "evidence/assessment-crossing-701": {
+      "run": "evidence/assessment-crossing-701",
+      "responses": 1376,
+      "updates": 768,
+      "checkpoints": 8
+    },
+    "evidence/assessment-crossing-702": {
+      "run": "evidence/assessment-crossing-702",
+      "responses": 1376,
+      "updates": 768,
+      "checkpoints": 8
+    }
+  },
+  "assessment_methods": {
+    "constant_novel": {
+      "complete": 521,
+      "n": 768,
+      "gap_to_two_support_oracle": 3,
+      "new": 72,
+      "earlier": 16,
+      "negative": 49,
+      "losses": 212,
+      "repairs": 0
+    },
+    "constant_bridged": {
+      "complete": 508,
+      "n": 768,
+      "gap_to_two_support_oracle": 16,
+      "new": 96,
+      "earlier": 24,
+      "negative": 4,
+      "losses": 249,
+      "repairs": 0
+    },
+    "match_history": {
+      "complete": 524,
+      "n": 768,
+      "gap_to_two_support_oracle": 0,
+      "new": 72,
+      "earlier": 16,
+      "negative": 52,
+      "losses": 209,
+      "repairs": 0
+    },
+    "no_revision": {
+      "complete": 661,
+      "n": 768,
+      "gap_to_two_support_oracle": -137,
+      "new": 0,
+      "earlier": 96,
+      "negative": 181,
+      "losses": 0,
+      "repairs": 0
+    },
+    "developed_constant": {
+      "complete": 508,
+      "n": 768,
+      "gap_to_two_support_oracle": 16,
+      "new": 96,
+      "earlier": 24,
+      "negative": 4,
+      "losses": 249,
+      "repairs": 0
+    },
+    "history_predictor": {
+      "complete": 508,
+      "n": 768,
+      "gap_to_two_support_oracle": 16,
+      "new": 96,
+      "earlier": 24,
+      "negative": 4,
+      "losses": 249,
+      "repairs": 0
+    },
+    "pre_observation": {
+      "complete": 508,
+      "n": 768,
+      "gap_to_two_support_oracle": 16,
+      "new": 96,
+      "earlier": 24,
+      "negative": 4,
+      "losses": 249,
+      "repairs": 0
+    },
+    "prefix_predictor": {
+      "complete": 508,
+      "n": 768,
+      "gap_to_two_support_oracle": 16,
+      "new": 96,
+      "earlier": 24,
+      "negative": 4,
+      "losses": 249,
+      "repairs": 0
+    },
+    "sparse_validation": {
+      "complete": 524,
+      "n": 768,
+      "gap_to_two_support_oracle": 0,
+      "new": 72,
+      "earlier": 16,
+      "negative": 52,
+      "losses": 209,
+      "repairs": 0
+    },
+    "full_validation": {
+      "complete": 524,
+      "n": 768,
+      "gap_to_two_support_oracle": 0,
+      "new": 72,
+      "earlier": 16,
+      "negative": 52,
+      "losses": 209,
+      "repairs": 0
+    }
+  },
+  "assessment_two_support_oracle": {
+    "complete": 524,
+    "n": 768
+  },
+  "resource_checks": 503,
+  "checks_with_visible_competing_jobs": 0,
+  "predictor_freeze_revision": "735f941",
+  "explicit_control": {
+    "complete": 192,
+    "n": 192,
+    "operations": [
+      {
+        "version": 0,
+        "scanned": 64,
+        "unique_keys": 16,
+        "overwrites": 0
+      },
+      {
+        "version": 1,
+        "scanned": 64,
+        "unique_keys": 2,
+        "overwrites": 2
+      },
+      {
+        "version": 2,
+        "scanned": 64,
+        "unique_keys": 2,
+        "overwrites": 2
+      }
+    ],
+    "construction_seconds": 0.00046087498776614666,
+    "use_seconds": 0.000684084021486342,
+    "key_reads": 192,
+    "table_bytes": 757,
+    "assumptions": [
+      "entity-invariant policy",
+      "exact supplied channel/priority/certified/stock addressing",
+      "authoritative checked labels",
+      "investigator correction scope"
+    ]
+  }
+}

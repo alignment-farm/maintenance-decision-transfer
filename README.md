@@ -1,13 +1,21 @@
 # Maintenance decisions across learned histories
 
-**Commissioned 16 September 2026. Bounded experiments running.**
+**Bounded comparison and verification completed 16 September 2026.**
 
 Execution follows the [frozen comparison](protocol/comparison-v1.md): development
 acquisition 601 and untouched assessment acquisitions 701/702, paid observation
 and validation controls, and a retained-example-table alternative. Exact S2 reuse
 is recorded in [provenance](sources/README.md); primary-method contact is in
 [methods](notes/methods.md). Failed acquisition checkpoints and all histories are
-preserved. Findings will distinguish development from fresh assessment.
+preserved. [Findings](FINDINGS.md) · [Complete tables](evidence/tables.md) ·
+[Verified ledger](evidence/phase-audit.json) · [Reproduction](notes/reproduction.md).
+
+On the two fresh acquisitions, matching revision history selects 524/768 complete
+orders, equal to the best-of-two support bound. Paid validation adds no aggregate
+gain. Every endpoint remains incomplete, and aggregate ties conceal different
+new-obligation failures. A 16-key retained-example table completes 192/192 under
+its disclosed addressing assumptions. This completes the bounded phase; broader
+theory and publication acceptance remain separate.
 
 Does a simple decision based on known learning history transfer to newly acquired
 learners, and do affordable observations of the current learner improve on it
