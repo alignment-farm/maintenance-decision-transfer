@@ -34,6 +34,16 @@ def main():
     probe_file=(a.output/'probes.jsonl').open('x')
     for run in a.runs:
         ev,rows=checked(run);design=json.loads((run/'design.json').read_text())
+        if 'start_run' in design:
+            _,original=checked(Path(design['start_run']))
+            for h in ['novel','bridged']:
+                old={json.dumps(r['case'],sort_keys=True):r['raw'] for r in original if r['state']==f"seed{design['seed']}-{h}-v1" and r['repeat']==0}
+                shared=[r for r in rows if r['state']==h+'-start' and r.get('panel')=='final' and json.dumps(r['case'],sort_keys=True) in old]
+                assert len(shared)==128
+                assert all(r['raw']==old[json.dumps(r['case'],sort_keys=True)] for r in shared)
+        else:
+            first={(r['state'],json.dumps(r['case'],sort_keys=True)):r['raw'] for r in rows if r['repeat']==0}
+            assert all(r['raw']==first[r['state'],json.dumps(r['case'],sort_keys=True)] for r in rows if r['repeat']==1)
         # Full token accounting, independent rescoring already performed by checked().
         for r in rows:
             assert rt.encode(t.prompt(r['case']))==r['prefix']

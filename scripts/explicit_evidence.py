@@ -1,12 +1,14 @@
 """Retained examples, keyed by supplied condition fields; no rules at use time."""
 import json
+import argparse
 from pathlib import Path
 import time
 import maintenance_task as t
 
 def key(c): return '|'.join(str(c[k]) for k in ('channel','priority','certified','stock'))
 def main():
-    out=Path('evidence/explicit-v1');out.mkdir(exist_ok=False)
+    p=argparse.ArgumentParser();p.add_argument('--output',type=Path,default=Path('evidence/explicit-v1'));a=p.parse_args()
+    out=a.output;out.mkdir(exist_ok=False)
     tick=time.perf_counter();table={};evidence=[];operations=[]
     # Labels are precisely the supervised original/correction evidence, not final cases.
     for version in range(3):
