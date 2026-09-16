@@ -1,0 +1,8 @@
+{
+  "constant_novel": "novel",
+  "constant_bridged": "bridged",
+  "match_history": "bridged",
+  "no_revision": "none",
+  "sparse_validation": "bridged",
+  "full_validation": "bridged"
+}

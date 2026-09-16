@@ -1,0 +1,772 @@
+{
+  "runs": [
+    {
+      "design": {
+        "seed": 601,
+        "start_run": "evidence/dev-acquisition-601",
+        "acquisition_updates": 512,
+        "final": [
+          "daxen",
+          "miptor",
+          "velsun",
+          "robnak",
+          "fenzal",
+          "kudrem",
+          "sovpik",
+          "tarnex",
+          "vornel",
+          "hespak",
+          "queldin",
+          "zartum"
+        ],
+        "validation": [
+          "torvek",
+          "jaspel"
+        ],
+        "sparse": [
+          0,
+          2,
+          4,
+          6,
+          9,
+          11,
+          13,
+          15
+        ],
+        "phase": "development"
+      },
+      "endpoints": [
+        {
+          "history": "novel",
+          "support": "none",
+          "complete": 168,
+          "n": 192,
+          "components": {
+            "eligibility": 168,
+            "reservation": 180,
+            "shipment": 180,
+            "stock": 180,
+            "status": 168,
+            "format": 192,
+            "exact": 168,
+            "complete": 168,
+            "stale": 24
+          },
+          "groups": {
+            "new": {
+              "n": 24,
+              "complete": 0
+            },
+            "earlier": {
+              "n": 24,
+              "complete": 24
+            },
+            "unchanged": {
+              "n": 168,
+              "complete": 168
+            },
+            "negative": {
+              "n": 48,
+              "complete": 48
+            },
+            "fresh": {
+              "n": 64,
+              "complete": 56
+            },
+            "familiar": {
+              "n": 128,
+              "complete": 112
+            }
+          },
+          "losses": 0,
+          "repairs": 0,
+          "start_v1_complete": 192
+        },
+        {
+          "history": "novel",
+          "support": "novel",
+          "complete": 144,
+          "n": 192,
+          "components": {
+            "eligibility": 144,
+            "reservation": 168,
+            "shipment": 168,
+            "stock": 168,
+            "status": 144,
+            "format": 192,
+            "exact": 144,
+            "complete": 144,
+            "stale": 0
+          },
+          "groups": {
+            "new": {
+              "n": 24,
+              "complete": 24
+            },
+            "earlier": {
+              "n": 24,
+              "complete": 24
+            },
+            "unchanged": {
+              "n": 168,
+              "complete": 120
+            },
+            "negative": {
+              "n": 48,
+              "complete": 0
+            },
+            "fresh": {
+              "n": 64,
+              "complete": 48
+            },
+            "familiar": {
+              "n": 128,
+              "complete": 96
+            }
+          },
+          "losses": 48,
+          "repairs": 0,
+          "start_v1_complete": 192
+        },
+        {
+          "history": "novel",
+          "support": "bridged",
+          "complete": 150,
+          "n": 192,
+          "components": {
+            "eligibility": 150,
+            "reservation": 171,
+            "shipment": 171,
+            "stock": 171,
+            "status": 150,
+            "format": 192,
+            "exact": 150,
+            "complete": 150,
+            "stale": 0
+          },
+          "groups": {
+            "new": {
+              "n": 24,
+              "complete": 24
+            },
+            "earlier": {
+              "n": 24,
+              "complete": 19
+            },
+            "unchanged": {
+              "n": 168,
+              "complete": 126
+            },
+            "negative": {
+              "n": 48,
+              "complete": 11
+            },
+            "fresh": {
+              "n": 64,
+              "complete": 48
+            },
+            "familiar": {
+              "n": 128,
+              "complete": 102
+            }
+          },
+          "losses": 42,
+          "repairs": 0,
+          "start_v1_complete": 192
+        },
+        {
+          "history": "bridged",
+          "support": "none",
+          "complete": 160,
+          "n": 192,
+          "components": {
+            "eligibility": 160,
+            "reservation": 180,
+            "shipment": 180,
+            "stock": 180,
+            "status": 160,
+            "format": 192,
+            "exact": 160,
+            "complete": 160,
+            "stale": 24
+          },
+          "groups": {
+            "new": {
+              "n": 24,
+              "complete": 0
+            },
+            "earlier": {
+              "n": 24,
+              "complete": 16
+            },
+            "unchanged": {
+              "n": 168,
+              "complete": 160
+            },
+            "negative": {
+              "n": 48,
+              "complete": 48
+            },
+            "fresh": {
+              "n": 64,
+              "complete": 54
+            },
+            "familiar": {
+              "n": 128,
+              "complete": 106
+            }
+          },
+          "losses": 0,
+          "repairs": 0,
+          "start_v1_complete": 184
+        },
+        {
+          "history": "bridged",
+          "support": "novel",
+          "complete": 120,
+          "n": 192,
+          "components": {
+            "eligibility": 120,
+            "reservation": 156,
+            "shipment": 156,
+            "stock": 156,
+            "status": 120,
+            "format": 192,
+            "exact": 120,
+            "complete": 120,
+            "stale": 0
+          },
+          "groups": {
+            "new": {
+              "n": 24,
+              "complete": 24
+            },
+            "earlier": {
+              "n": 24,
+              "complete": 0
+            },
+            "unchanged": {
+              "n": 168,
+              "complete": 96
+            },
+            "negative": {
+              "n": 48,
+              "complete": 0
+            },
+            "fresh": {
+              "n": 64,
+              "complete": 40
+            },
+            "familiar": {
+              "n": 128,
+              "complete": 80
+            }
+          },
+          "losses": 64,
+          "repairs": 0,
+          "start_v1_complete": 184
+        },
+        {
+          "history": "bridged",
+          "support": "bridged",
+          "complete": 143,
+          "n": 192,
+          "components": {
+            "eligibility": 143,
+            "reservation": 167,
+            "shipment": 167,
+            "stock": 167,
+            "status": 143,
+            "format": 192,
+            "exact": 143,
+            "complete": 143,
+            "stale": 0
+          },
+          "groups": {
+            "new": {
+              "n": 24,
+              "complete": 24
+            },
+            "earlier": {
+              "n": 24,
+              "complete": 23
+            },
+            "unchanged": {
+              "n": 168,
+              "complete": 119
+            },
+            "negative": {
+              "n": 48,
+              "complete": 0
+            },
+            "fresh": {
+              "n": 64,
+              "complete": 48
+            },
+            "familiar": {
+              "n": 128,
+              "complete": 95
+            }
+          },
+          "losses": 49,
+          "repairs": 8,
+          "start_v1_complete": 184
+        }
+      ],
+      "decisions": [
+        {
+          "history": "novel",
+          "method": "constant_novel",
+          "support": "novel",
+          "complete": 144,
+          "regret": 6
+        },
+        {
+          "history": "novel",
+          "method": "constant_bridged",
+          "support": "bridged",
+          "complete": 150,
+          "regret": 0
+        },
+        {
+          "history": "novel",
+          "method": "match_history",
+          "support": "novel",
+          "complete": 144,
+          "regret": 6
+        },
+        {
+          "history": "novel",
+          "method": "no_revision",
+          "support": "none",
+          "complete": 168,
+          "regret": -18
+        },
+        {
+          "history": "novel",
+          "method": "sparse_validation",
+          "support": "novel",
+          "complete": 144,
+          "regret": 6
+        },
+        {
+          "history": "novel",
+          "method": "full_validation",
+          "support": "novel",
+          "complete": 144,
+          "regret": 6
+        },
+        {
+          "history": "bridged",
+          "method": "constant_novel",
+          "support": "novel",
+          "complete": 120,
+          "regret": 23
+        },
+        {
+          "history": "bridged",
+          "method": "constant_bridged",
+          "support": "bridged",
+          "complete": 143,
+          "regret": 0
+        },
+        {
+          "history": "bridged",
+          "method": "match_history",
+          "support": "bridged",
+          "complete": 143,
+          "regret": 0
+        },
+        {
+          "history": "bridged",
+          "method": "no_revision",
+          "support": "none",
+          "complete": 160,
+          "regret": -17
+        },
+        {
+          "history": "bridged",
+          "method": "sparse_validation",
+          "support": "bridged",
+          "complete": 143,
+          "regret": 0
+        },
+        {
+          "history": "bridged",
+          "method": "full_validation",
+          "support": "bridged",
+          "complete": 143,
+          "regret": 0
+        }
+      ],
+      "costs": {
+        "updates": 960,
+        "training_input_tokens": 85740,
+        "loss_tokens": 7680,
+        "training_seconds": 177.89411161697353,
+        "generations": 1376,
+        "prompt_tokens": 113376,
+        "completion_tokens": 10998,
+        "generation_seconds": 381.340392139653,
+        "wall_seconds": 593.5511804580165,
+        "wait_seconds": 0.0,
+        "peak_mlx_bytes": 9614654492,
+        "checkpoint_bytes": 41999432,
+        "panels": {
+          "final": {
+            "generations": 1152,
+            "prompt_tokens": 94848,
+            "completion_tokens": 9213
+          },
+          "pre": {
+            "generations": 32,
+            "prompt_tokens": 2656,
+            "completion_tokens": 257
+          },
+          "prefix": {
+            "generations": 64,
+            "prompt_tokens": 5312,
+            "completion_tokens": 507
+          },
+          "validation": {
+            "generations": 128,
+            "prompt_tokens": 10560,
+            "completion_tokens": 1021
+          }
+        }
+      }
+    }
+  ],
+  "acquisitions": [
+    {
+      "run": "evidence/dev-acquisition-601",
+      "criteria": [
+        {
+          "kind": "acquisition_criterion",
+          "elapsed": 89.1243738750054,
+          "state": "seed601-A256",
+          "passed": false,
+          "recall": {
+            "n": 64,
+            "eligibility": 64,
+            "reservation": 58,
+            "shipment": 58,
+            "stock": 58,
+            "status": 58,
+            "format": 64,
+            "exact": 58,
+            "complete": 58,
+            "stale": 0
+          },
+          "transfer": {
+            "n": 32,
+            "eligibility": 32,
+            "reservation": 28,
+            "shipment": 28,
+            "stock": 28,
+            "status": 28,
+            "format": 32,
+            "exact": 28,
+            "complete": 28,
+            "stale": 0
+          }
+        },
+        {
+          "kind": "acquisition_criterion",
+          "elapsed": 164.2592865829938,
+          "state": "seed601-A512",
+          "passed": true,
+          "recall": {
+            "n": 64,
+            "eligibility": 64,
+            "reservation": 64,
+            "shipment": 64,
+            "stock": 64,
+            "status": 64,
+            "format": 64,
+            "exact": 64,
+            "complete": 64,
+            "stale": 0
+          },
+          "transfer": {
+            "n": 32,
+            "eligibility": 32,
+            "reservation": 32,
+            "shipment": 32,
+            "stock": 32,
+            "status": 32,
+            "format": 32,
+            "exact": 32,
+            "complete": 32,
+            "stale": 0
+          }
+        }
+      ],
+      "costs": {
+        "updates": 896,
+        "training_input_tokens": 80122,
+        "loss_tokens": 7168,
+        "training_seconds": 163.66228446006426,
+        "generations": 640,
+        "prompt_tokens": 52640,
+        "completion_tokens": 5110,
+        "generation_seconds": 177.29579248736263,
+        "wall_seconds": 371.62872137498925,
+        "wait_seconds": 0.0,
+        "peak_mlx_bytes": 9614900252,
+        "checkpoint_bytes": 10499572,
+        "panels": {
+          "acquisition_characterization": {
+            "generations": 640,
+            "prompt_tokens": 52640,
+            "completion_tokens": 5110
+          }
+        }
+      }
+    }
+  ],
+  "deployment": {
+    "evidence/dev-crossing-601": [
+      {
+        "history": "novel",
+        "method": "constant_novel",
+        "support": "novel",
+        "revision_updates": 192,
+        "training_input_tokens": 17148,
+        "loss_tokens": 1536,
+        "observed_training_seconds": 35.25034586782567,
+        "observation_calls": 0,
+        "observation_prompt_tokens": 0,
+        "observation_completion_tokens": 0,
+        "observed_observation_seconds": 0,
+        "use_calls": 192,
+        "use_prompt_tokens": 15808,
+        "use_completion_tokens": 1536,
+        "observed_use_seconds": 53.12265141881653,
+        "shared_prior_acquisition_updates": 512,
+        "shared_prior_revision_updates": 192,
+        "calibration_required": false
+      },
+      {
+        "history": "novel",
+        "method": "constant_bridged",
+        "support": "bridged",
+        "revision_updates": 192,
+        "training_input_tokens": 17148,
+        "loss_tokens": 1536,
+        "observed_training_seconds": 35.63398558465997,
+        "observation_calls": 0,
+        "observation_prompt_tokens": 0,
+        "observation_completion_tokens": 0,
+        "observed_observation_seconds": 0,
+        "use_calls": 192,
+        "use_prompt_tokens": 15808,
+        "use_completion_tokens": 1526,
+        "observed_use_seconds": 52.97257354186149,
+        "shared_prior_acquisition_updates": 512,
+        "shared_prior_revision_updates": 192,
+        "calibration_required": false
+      },
+      {
+        "history": "novel",
+        "method": "match_history",
+        "support": "novel",
+        "revision_updates": 192,
+        "training_input_tokens": 17148,
+        "loss_tokens": 1536,
+        "observed_training_seconds": 35.25034586782567,
+        "observation_calls": 0,
+        "observation_prompt_tokens": 0,
+        "observation_completion_tokens": 0,
+        "observed_observation_seconds": 0,
+        "use_calls": 192,
+        "use_prompt_tokens": 15808,
+        "use_completion_tokens": 1536,
+        "observed_use_seconds": 53.12265141881653,
+        "shared_prior_acquisition_updates": 512,
+        "shared_prior_revision_updates": 192,
+        "calibration_required": false
+      },
+      {
+        "history": "novel",
+        "method": "no_revision",
+        "support": "none",
+        "revision_updates": 0,
+        "training_input_tokens": 0,
+        "loss_tokens": 0,
+        "observed_training_seconds": 0,
+        "observation_calls": 0,
+        "observation_prompt_tokens": 0,
+        "observation_completion_tokens": 0,
+        "observed_observation_seconds": 0,
+        "use_calls": 192,
+        "use_prompt_tokens": 15808,
+        "use_completion_tokens": 1536,
+        "observed_use_seconds": 53.11694429672207,
+        "shared_prior_acquisition_updates": 512,
+        "shared_prior_revision_updates": 192,
+        "calibration_required": false
+      },
+      {
+        "history": "novel",
+        "method": "sparse_validation",
+        "support": "novel",
+        "revision_updates": 384,
+        "training_input_tokens": 34296,
+        "loss_tokens": 3072,
+        "observed_training_seconds": 70.88433145248564,
+        "observation_calls": 16,
+        "observation_prompt_tokens": 1328,
+        "observation_completion_tokens": 128,
+        "observed_observation_seconds": 4.578862833091989,
+        "use_calls": 192,
+        "use_prompt_tokens": 15808,
+        "use_completion_tokens": 1536,
+        "observed_use_seconds": 53.12265141881653,
+        "shared_prior_acquisition_updates": 512,
+        "shared_prior_revision_updates": 192,
+        "calibration_required": false
+      },
+      {
+        "history": "novel",
+        "method": "full_validation",
+        "support": "novel",
+        "revision_updates": 384,
+        "training_input_tokens": 34296,
+        "loss_tokens": 3072,
+        "observed_training_seconds": 70.88433145248564,
+        "observation_calls": 64,
+        "observation_prompt_tokens": 5280,
+        "observation_completion_tokens": 510,
+        "observed_observation_seconds": 17.799680166121107,
+        "use_calls": 192,
+        "use_prompt_tokens": 15808,
+        "use_completion_tokens": 1536,
+        "observed_use_seconds": 53.12265141881653,
+        "shared_prior_acquisition_updates": 512,
+        "shared_prior_revision_updates": 192,
+        "calibration_required": false
+      },
+      {
+        "history": "bridged",
+        "method": "constant_novel",
+        "support": "novel",
+        "revision_updates": 192,
+        "training_input_tokens": 17148,
+        "loss_tokens": 1536,
+        "observed_training_seconds": 35.81402091609198,
+        "observation_calls": 0,
+        "observation_prompt_tokens": 0,
+        "observation_completion_tokens": 0,
+        "observed_observation_seconds": 0,
+        "use_calls": 192,
+        "use_prompt_tokens": 15808,
+        "use_completion_tokens": 1536,
+        "observed_use_seconds": 53.18614166602492,
+        "shared_prior_acquisition_updates": 512,
+        "shared_prior_revision_updates": 192,
+        "calibration_required": false
+      },
+      {
+        "history": "bridged",
+        "method": "constant_bridged",
+        "support": "bridged",
+        "revision_updates": 192,
+        "training_input_tokens": 17148,
+        "loss_tokens": 1536,
+        "observed_training_seconds": 35.78211516328156,
+        "observation_calls": 0,
+        "observation_prompt_tokens": 0,
+        "observation_completion_tokens": 0,
+        "observed_observation_seconds": 0,
+        "use_calls": 192,
+        "use_prompt_tokens": 15808,
+        "use_completion_tokens": 1535,
+        "observed_use_seconds": 53.17686229606625,
+        "shared_prior_acquisition_updates": 512,
+        "shared_prior_revision_updates": 192,
+        "calibration_required": false
+      },
+      {
+        "history": "bridged",
+        "method": "match_history",
+        "support": "bridged",
+        "revision_updates": 192,
+        "training_input_tokens": 17148,
+        "loss_tokens": 1536,
+        "observed_training_seconds": 35.78211516328156,
+        "observation_calls": 0,
+        "observation_prompt_tokens": 0,
+        "observation_completion_tokens": 0,
+        "observed_observation_seconds": 0,
+        "use_calls": 192,
+        "use_prompt_tokens": 15808,
+        "use_completion_tokens": 1535,
+        "observed_use_seconds": 53.17686229606625,
+        "shared_prior_acquisition_updates": 512,
+        "shared_prior_revision_updates": 192,
+        "calibration_required": false
+      },
+      {
+        "history": "bridged",
+        "method": "no_revision",
+        "support": "none",
+        "revision_updates": 0,
+        "training_input_tokens": 0,
+        "loss_tokens": 0,
+        "observed_training_seconds": 0,
+        "observation_calls": 0,
+        "observation_prompt_tokens": 0,
+        "observation_completion_tokens": 0,
+        "observed_observation_seconds": 0,
+        "use_calls": 192,
+        "use_prompt_tokens": 15808,
+        "use_completion_tokens": 1544,
+        "observed_use_seconds": 53.34624354209518,
+        "shared_prior_acquisition_updates": 512,
+        "shared_prior_revision_updates": 192,
+        "calibration_required": false
+      },
+      {
+        "history": "bridged",
+        "method": "sparse_validation",
+        "support": "bridged",
+        "revision_updates": 384,
+        "training_input_tokens": 34296,
+        "loss_tokens": 3072,
+        "observed_training_seconds": 71.59613607937354,
+        "observation_calls": 16,
+        "observation_prompt_tokens": 1328,
+        "observation_completion_tokens": 129,
+        "observed_observation_seconds": 4.590487626002869,
+        "use_calls": 192,
+        "use_prompt_tokens": 15808,
+        "use_completion_tokens": 1535,
+        "observed_use_seconds": 53.17686229606625,
+        "shared_prior_acquisition_updates": 512,
+        "shared_prior_revision_updates": 192,
+        "calibration_required": false
+      },
+      {
+        "history": "bridged",
+        "method": "full_validation",
+        "support": "bridged",
+        "revision_updates": 384,
+        "training_input_tokens": 34296,
+        "loss_tokens": 3072,
+        "observed_training_seconds": 71.59613607937354,
+        "observation_calls": 64,
+        "observation_prompt_tokens": 5280,
+        "observation_completion_tokens": 511,
+        "observed_observation_seconds": 17.82843654192402,
+        "use_calls": 192,
+        "use_prompt_tokens": 15808,
+        "use_completion_tokens": 1535,
+        "observed_use_seconds": 53.17686229606625,
+        "shared_prior_acquisition_updates": 512,
+        "shared_prior_revision_updates": 192,
+        "calibration_required": false
+      }
+    ]
+  }
+}
