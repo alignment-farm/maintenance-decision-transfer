@@ -1,0 +1,9 @@
+{
+  "hw.memsize": "68719476736",
+  "hw.model": "Mac13,2",
+  "hw.ncpu": "20",
+  "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "observed_utc": "2026-09-16T18:24:26Z",
+  "coordination": "sequential own model runners; passive observed sibling-script yielding; no exclusive reservation"
+}

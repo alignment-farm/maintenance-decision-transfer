@@ -18,6 +18,13 @@ This is known BEFORE assessment; fresh equality of their choices cannot show
 that the observations contain no information. We retain those failed informative-
 selection attempts and their costs rather than relabel them as useful predictors.
 
+Raw prefix accuracy is not uniformly ordered like the endpoint: under Novel
+history, Novel/Bridged prefixes score 3/16 and 8/16 and finish 144/192 and 150/192;
+under Bridged history they score 8/16 and 4/16 but finish 120/192 and 143/192.
+Simply choosing the more accurate short trial succeeds in one development
+history and fails in the other. This is a concrete prefix-to-endpoint calibration
+problem, not something supplied automatically by completion across examples.
+
 The initial match-history claim, both constant supports, sparse direct validation
 and full-condition direct validation remain distinct meaningful assessment
 comparators. On the Novel development history both candidates tie 24/32 on full

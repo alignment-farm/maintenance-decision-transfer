@@ -17,7 +17,7 @@ def main():
             vals=[d['phase']+' / '+str(d['seed']),row['history'],row['support'],row['complete'],g['new']['complete'],g['earlier']['complete'],g['negative']['complete'],g['fresh']['complete'],row['losses'],row['repairs']]
             lines.append('| '+' | '.join(map(str,vals))+' |')
     lines+=['','Losses and repairs concern only obligations unchanged from version 1 to 2.','',
-            '## Assessment decisions','', '| Method | 701 Novel | 701 Bridged | 702 Novel | 702 Bridged | Total /768 | Regret |',
+            '## Assessment decisions','', '| Method | 701 Novel | 701 Bridged | 702 Novel | 702 Bridged | Total /768 | Gap to two-support oracle |',
             '|---|---:|---:|---:|---:|---:|---:|']
     methods=defaultdict(list)
     for run in data['runs']:
@@ -26,7 +26,8 @@ def main():
     for method,rs in methods.items():
         vals=[method]+[f"{r['support']} {r['complete']}" for r in rs]+[sum(r['complete'] for r in rs),sum(r['regret'] for r in rs)]
         lines.append('| '+' | '.join(map(str,vals))+' |')
-    lines+=['','## Native investigation costs','', '| Run | Updates | Input / loss tokens | Generations | Prompt / completion tokens | Active seconds | Wait seconds | Peak MLX bytes |',
+    lines+=['','The gap is nonnegative regret for support selectors. No revision is outside the two-support action set: a negative gap means it exceeds both trained candidates on aggregate while still missing new obligations.','',
+            '## Native investigation costs','', '| Run | Updates | Input / loss tokens | Generations | Prompt / completion tokens | Active seconds | Wait seconds | Peak MLX bytes |',
             '|---|---:|---:|---:|---:|---:|---:|---:|']
     for run in data['acquisitions']+[dict(run=r['design']['phase']+' crossing '+str(r['design']['seed']),costs=r['costs']) for r in data['runs']]:
         c=run['costs'];vals=[run['run'],c['updates'],f"{c['training_input_tokens']} / {c['loss_tokens']}",c['generations'],f"{c['prompt_tokens']} / {c['completion_tokens']}",round(c['wall_seconds']-c['wait_seconds'],2),round(c['wait_seconds'],2),c['peak_mlx_bytes']]
