@@ -82,6 +82,35 @@ def costs(events,rows,run):
             prompt_tokens=sum(r['prompt_tokens'] for r in rows if r.get('panel','acquisition_characterization')==panel),
             completion_tokens=sum(r['completion_tokens'] for r in rows if r.get('panel','acquisition_characterization')==panel))
             for panel in sorted(set(r.get('panel','acquisition_characterization') for r in rows))})
+def deployment(run):
+    events,rows=checked(run);g=groups(rows);design=json.loads((run/'design.json').read_text())
+    result=[]
+    for h in ARMS:
+        decisions=json.loads((run/(h+'-decisions.json')).read_text())
+        for method,s in decisions.items():
+            selected=[];observed=[]
+            if method in ('sparse_validation','full_validation'):
+                selected=[e for e in events if e['kind']=='update' and e['state'] in [h+'--'+v for v in ARMS]]
+                for arm in ARMS:
+                    panel=g[h+'--'+arm,'validation']
+                    observed+=panel if method=='full_validation' else [panel[i] for i in [0,2,4,6,9,11,13,15]]
+            elif s!='none':
+                selected=[e for e in events if e['kind']=='update' and e['state']==h+'--'+s]
+                if method=='prefix_predictor':
+                    other=next(v for v in ARMS if v!=s)
+                    selected += [e for e in events if e['kind']=='update' and e['state']==h+'--'+other and e['index']<=24]
+                    observed=g[h+'--novel','prefix']+g[h+'--bridged','prefix']
+                elif method=='pre_observation':observed=g[h+'-start','pre']
+            use=g[h+'-start' if s=='none' else h+'--'+s,'final']
+            result.append(dict(history=h,method=method,support=s,revision_updates=len(selected),
+                training_input_tokens=sum(e['input_tokens'] for e in selected),loss_tokens=sum(e['loss_tokens'] for e in selected),
+                observed_training_seconds=sum(e['seconds'] for e in selected),observation_calls=len(observed),
+                observation_prompt_tokens=sum(r['prompt_tokens'] for r in observed),observation_completion_tokens=sum(r['completion_tokens'] for r in observed),
+                observed_observation_seconds=sum(r['seconds'] for r in observed),use_calls=len(use),
+                use_prompt_tokens=sum(r['prompt_tokens'] for r in use),use_completion_tokens=sum(r['completion_tokens'] for r in use),
+                observed_use_seconds=sum(r['seconds'] for r in use),shared_prior_acquisition_updates=design['acquisition_updates'],shared_prior_revision_updates=192,
+                calibration_required=method in ('developed_constant','history_predictor','pre_observation','prefix_predictor')))
+    return result
 def main():
     p=argparse.ArgumentParser();p.add_argument('--fit',type=Path);p.add_argument('--runs',nargs='*',type=Path,default=[])
     p.add_argument('--acquisitions',nargs='*',type=Path,default=[]);p.add_argument('--output',type=Path,required=True);a=p.parse_args()
@@ -91,7 +120,7 @@ def main():
     for run in a.acquisitions:
         events,rows=checked(run)
         acquisitions.append(dict(run=str(run),criteria=[e for e in events if e['kind']=='acquisition_criterion'],costs=costs(events,rows,run)))
-    dump(a.output,dict(runs=results,acquisitions=acquisitions))
+    dump(a.output,dict(runs=results,acquisitions=acquisitions,deployment={str(run):deployment(run) for run in a.runs}))
     for r in results:
         print(r['design']['seed'],[(v['history'],v['support'],v['complete']) for v in r['endpoints']])
 if __name__=='__main__':main()

@@ -1,7 +1,13 @@
 # Maintenance decisions across learned histories
 
-**Commissioned 16 September 2026. Prepared for independent execution; no model
-experiment has run in this repository.**
+**Commissioned 16 September 2026. Bounded experiments running.**
+
+Execution follows the [frozen comparison](protocol/comparison-v1.md): development
+acquisition 601 and untouched assessment acquisitions 701/702, paid observation
+and validation controls, and a retained-example-table alternative. Exact S2 reuse
+is recorded in [provenance](sources/README.md); primary-method contact is in
+[methods](notes/methods.md). Failed acquisition checkpoints and all histories are
+preserved. Findings will distinguish development from fresh assessment.
 
 Does a simple decision based on known learning history transfer to newly acquired
 learners, and do affordable observations of the current learner improve on it

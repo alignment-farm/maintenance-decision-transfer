@@ -3,6 +3,7 @@ import argparse
 from collections import defaultdict
 import json
 import os
+import random
 from pathlib import Path
 import subprocess
 import time
@@ -55,6 +56,11 @@ def main():
             elif name.endswith('-v1'):
                 support=name.split('-')[1]
                 assert [(e['source'],e['case']) for e in records]==t.schedule(support,1,64,'negative')
+            elif name.endswith('-acquisition'):
+                seed=int(name.split('-')[0][4:]);rng=random.Random(seed);expected=[]
+                for _ in range(16):
+                    cycle=t.cases(t.ACQUIRED);rng.shuffle(cycle);expected+=cycle
+                assert [e['case'] for e in records]==expected[:len(records)]
         if 'validation' in design:
             for h in ['novel','bridged']:
                 decision_idx=next(i for i,e in enumerate(ev) if e['kind']=='endpoint_decisions' and e['history']==h)
